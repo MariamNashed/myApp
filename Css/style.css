@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    background-image: url('../img/kazuend-2KXEb_8G5vo-unsplash.jpg');
+    background-size:cover;
+    background-color: black;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+  background-color: rgba(255,255,255,0.7);
+  border-radius: 25px;
+}
+ #Main-Footer .text-minor > *:first-child,
+  #Main-Footer .text-minor > *:nth-child(2){
+    border-bottom: #444 dotted 1px;
+
+    padding-bottom: 1rem;
+  }
+
+.Main-Footer {
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+.Main-Footer p
+{margin: 0;}
+
+.text-minor a {
+  color: lightgrey;
+  font-size: 0.8em;
+  
+}
+
+.text-minor a:hover {
+  color: white;
+}
+
+ 

@@ -3,9 +3,61 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+
+  <!-- Bootstrap css link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+<!-- custom css -->
+<link rel="stylesheet" href="css/style.css" >
+ 
+
+  <title>Weather</title>
 </head>
 <body>
-  <h1>hiiiiiiiii</h1>
+  <div class="container">
+    
+    <div class="p-3 box text-center">
+      <div class="p-3  text-center">
+        <h1 class="display-3 text-center mt-1">The WEATHER APP</h1>
+      </div>
+     
+        <h2 class="display-3 text-center mt-1">Check 🌃☁️⛈️☀️🌞🌅🌦️😎🌇 ?</h2>
+        <form>
+          <div class="mb-3">
+           <input type="text" class="form-control" id="Name"  placeholder="User name">
+            </div>
+          <div class="mb-3">
+            <input type="password" class="form-control" id="Password" placeholder="Password">
+          </div>
+          <button type="button" class="btn btn-primary" id="logIn">Log in</button>
+        </form>
+        <div class="p-3  text-center">
+          <h3 class="display-3 text-center mt-1" id="error"></h3>
+        </div>
+       
+    </div>
+    </div>
+
+
+<!-- JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+<script src="js/MyScript.js" defer></script>
+
+
+<!-- footer -->
+  
+ <footer class="container-fluid bg-dark2 text-center Main-Footer">
+  <div class="container-sm">
+        <p  id="footer-p">
+            Weather &copy; 2024,All Rights Reserved
+        </p>
+   <p class="text-minor">
+
+                Photo by <a href="https://unsplash.com/@kazuend?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">kazuend</a> on <a href="https://unsplash.com/photos/calm-body-of-water-near-alp-mountains-during-nighttime-2KXEb_8G5vo?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+    </p>
+
+  </div>
+</footer>
+ 
 </body>
 </html>
