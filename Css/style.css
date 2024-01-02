@@ -3,6 +3,7 @@
   --primary-color: #0d06dd;
   --ErrorMessage-color: #ea0606;
   
+  --secondary-color: #760eb3;
 
 }
 
@@ -54,3 +55,6 @@ body {
 h1{ color: var(--primary-color);}
 
 #error {color: var(--ErrorMessage-color);}
+
+h2{ color: var(--secondary-color);}
+
