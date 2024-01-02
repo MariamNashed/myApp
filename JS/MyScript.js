@@ -1,8 +1,8 @@
 
 
 const logIn =  document.getElementById('logIn');//log in button 
-const name=document.getElementById("Name").value;//name
-const Password= document.getElementById("password").value//password
+const Name=document.getElementById('Name');//name
+const Password= document.getElementById('Password')//password
 
 function checkInput()// function to check the text box input not empty
 {
@@ -10,12 +10,12 @@ function checkInput()// function to check the text box input not empty
   try {
     document.getElementById('error').innerText="";//empty error message
 
-    if(name !="" && Password !="" )//mycondition
-     {
-      document.getElementById('error').innerText=
-      document.getElementById('Name').value
-      +
-       document.getElementById('Password').value;
+    if(Name.value !="" && Password.value !="" )//mycondition
+    
+    
+   {
+      document.getElementById('error').innerText=Name.value+Password.value;//goto wether page
+     
     }
   else
   {

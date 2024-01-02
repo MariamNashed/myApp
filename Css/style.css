@@ -1,3 +1,12 @@
+
+:root {
+  --primary-color: #0d06dd;
+  --ErrorMessage-color: #ea0606;
+  
+
+}
+
+
 html,
 body {
     height: 100%;
@@ -42,4 +51,6 @@ body {
   color: white;
 }
 
- 
+h1{ color: var(--primary-color);}
+
+#error {color: var(--ErrorMessage-color);}
